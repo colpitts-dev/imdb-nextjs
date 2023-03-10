@@ -10,7 +10,7 @@ export default function Header() {
       <div className="flex items-center space-x-2">
         <Link href="/">
           <h2>
-            <span className="px-2 py-1 mr-1 text-2xl font-bold rounded-lg bg-primary">
+            <span className="px-2 py-1 mr-1 text-2xl font-bold text-white rounded-lg bg-primary">
               IMDb
             </span>
             <span className="hidden text-xl sm:inline">Clone</span>

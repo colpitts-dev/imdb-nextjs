@@ -6,10 +6,9 @@
   /* default theme */
   --background: white;
   --foreground: black;
-
-  --color-primary: #e9005a;
 }
 
+.dark,
 [data-theme="dark"] {
   --background: black;
   --foreground: white;

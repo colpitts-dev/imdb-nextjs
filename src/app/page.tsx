@@ -5,8 +5,12 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <main>
-      <h1 className="text-amber-500">HOME</h1>
-    </main>
+    <article>
+      <section className="flex items-center justify-between max-w-6xl py-6 mx-2 xl:mx-auto">
+        <h1 className="text-2xl text-medium">
+          <span>HOME PAGE</span>
+        </h1>
+      </section>
+    </article>
   );
 }
