@@ -8,15 +8,5 @@ export const metadata = {
 };
 
 export default function Home() {
-  return (
-    <main>
-      <h2 className={inter.className}>
-        colpitts.dev <span>-&gt;</span>
-      </h2>
-      <p className={inter.className}>
-        Find in-depth courses featuring Agile Frontend and Fullstack Web
-        Development with TypeScript and GraphQL
-      </p>
-    </main>
-  );
+  return <main>HOME</main>;
 }
