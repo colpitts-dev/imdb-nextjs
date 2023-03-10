@@ -15,7 +15,7 @@ export const NavbarItem: React.FC<NavbarItemProps> = ({ title, param }) => {
   return (
     <Link
       href={`/?genre=${param}`}
-      className={`hover:text-amber-600 dark:hover:text-primary font-semibold ${
+      className={` hover:text-amber-600 dark:hover:text-primary font-semibold ${
         genre &&
         genre === param &&
         "underline underline-offset-8 decoration-4 decoration-amber-600 dark:decoration-primary rounded-lg"
