@@ -1,4 +1,5 @@
 import Header from "@/components/Header";
+import { Navbar } from "@/components/Navbar";
 import { AppProviders } from "./AppProviders";
 
 import "./globals.css";
@@ -20,6 +21,7 @@ export default function RootLayout({
       <body>
         <AppProviders>
           <Header />
+          <Navbar />
           {children}
         </AppProviders>
       </body>
