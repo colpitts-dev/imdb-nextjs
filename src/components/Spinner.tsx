@@ -3,9 +3,6 @@ export interface SpinnerProps {
 }
 
 export function Spinner({ size = 64 }: SpinnerProps) {
-  const colorPrimay = "var(--color-primary)";
-  const colorSecondary = "var(--color-secondary)";
-
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
