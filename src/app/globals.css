@@ -6,6 +6,9 @@
   /* default theme */
   --background: white;
   --foreground: black;
+
+  --color-primary: #e9005a;
+  --color-secondary: #bbcedd;
 }
 
 .dark,
