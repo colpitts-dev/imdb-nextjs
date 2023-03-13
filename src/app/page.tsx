@@ -37,7 +37,7 @@ export default async function Home(props: PageProps) {
 
   return (
     <article>
-      <section className="flex items-center justify-between max-w-6xl py-6 mx-2 xl:mx-auto">
+      <section className="flex items-center justify-between max-w-6xl py-6 sm:mx-2 lg:mx-auto">
         <Results results={results} />
       </section>
     </article>
